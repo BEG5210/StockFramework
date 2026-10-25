@@ -1,0 +1,3 @@
+[submodule "moneycpp"]
+	path = moneycpp
+	url = https://github.com/mariusbancila/moneycpp.git
