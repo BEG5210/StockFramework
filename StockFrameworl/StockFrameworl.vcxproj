@@ -153,6 +153,7 @@
     <ClInclude Include="..\modules\moneycpp\include\ext\boost.h" />
     <ClInclude Include="..\modules\moneycpp\include\money.h" />
     <ClInclude Include="..\modules\moneycpp\include\rounding.h" />
+    <ClInclude Include="fullMoneycppLib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
