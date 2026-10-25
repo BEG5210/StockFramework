@@ -111,6 +111,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>P:\StockFramework\modules\moneycpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,16 +143,16 @@
     <ClCompile Include="StockFrameworl.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\moneycpp\include\country.h" />
-    <ClInclude Include="..\moneycpp\include\country_currency.h" />
-    <ClInclude Include="..\moneycpp\include\currency.h" />
-    <ClInclude Include="..\moneycpp\include\ext\boost.h" />
-    <ClInclude Include="..\moneycpp\include\money.h" />
-    <ClInclude Include="..\moneycpp\include\rounding.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\ATTRIBUTES.md" />
     <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\modules\moneycpp\include\country.h" />
+    <ClInclude Include="..\modules\moneycpp\include\country_currency.h" />
+    <ClInclude Include="..\modules\moneycpp\include\currency.h" />
+    <ClInclude Include="..\modules\moneycpp\include\ext\boost.h" />
+    <ClInclude Include="..\modules\moneycpp\include\money.h" />
+    <ClInclude Include="..\modules\moneycpp\include\rounding.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
